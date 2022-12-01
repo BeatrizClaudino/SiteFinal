@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+body{
+    color: rgb(42, 40, 37);
+    font-size: 100%;
+    text-shadow: 0.1em 0.1em 0.1em rgb(255, 255, 255);
+    line-height: 0.5em;
+}
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(20, 95, 95);
+    font-size: 3em;
+}

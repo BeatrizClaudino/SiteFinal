@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+.titulo1 > h1{
+    padding-bottom: 26px;
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    justify-content: center;
+}
+
+.swiper-slide {
+    background-color: black;
+}
+
+.mobile {
+    display: none;
+}
+
+ul {
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+li a {
+    transition: all ease-in-out .3s;
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+    margin: 0px 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(81, 32, 131);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.text_logo {
+    margin-right: 20px;
+}
+
+.pesquisa {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.barraSuperior {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pesquisa input {
+    padding: 0 10px;
+    width: 350px;
+    border-radius: 15px;
+    border: none;
+}
+
+.lupa {
+    margin-left: -33px;
+    margin-top: 5px;
+}
+
+.text_logo h3 {
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+
+.barraSuperior {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lupa {
+    margin-left: -33px;
+    margin-top: 5px;
+}
+
+.container1 {
+    width: 100%;
+}
+
+.image_tecnology {
+    background: url(../img/tec.png);
+    height: 484px;
+    background-size: cover;
+    background-position: center -55px;
+}
+
+.icons {
+    margin: 0px 0px 0px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.column_nature>img {
+    width: 300px;
+    height: 300px;
+}
+
+.transition {
+    transition: 0.5s;
+}
+
+.transition:hover {
+    margin-top: -20px;
+}
+
+.carrinho svg {
+    height: 30px;
+    width: 30px;
+}
+
+.usuario svg {
+    height: 40px;
+    width: 60px;
+}
+
+.container2 {
+    width: 100%;
+    height: 500px;
+    padding: 29px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 98%;
+    justify-content: center;
+}
+
+.content img {
+    width: 215px;
+    height: 215px;
+}
+
+.titulo > h1 {
+    padding-bottom: 26px;
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    justify-content: center;
+}
+
+.card {
+    width: 18rem;
+    box-shadow: 0px 2px 18px rgba(6, 4, 14, 0.877);
+}
+
+.banners {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    /* GAMBIARRA TEMPORARIA apagar*/
+
+}
+
+.busca {
+    display: none;
+}
+
+.logo a {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    transition: all ease-in-out .3s;
+}
+
+.logo h3 {
+    padding-top: 10px;
+    padding-left: 3px;
+    color: #fff;
+    font-size: 1.75rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.logo a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+ul a:hover {
+    text-decoration: none;
+    background-color: rgb(201, 170, 247);
+    color: black;
+    opacity: 50%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 18vh;
+    object-fit: cover;
+}
+
+.container3 {
+    padding: 29px;
+}
+
+.container4 {
+    height: 35rem;
+    width: 100%;
+}
+
+.infos {
+    color: white;
+}
+
+.image {
+    height: 486px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/templateBlackFriday.png);
+}
+
+/* PORTIFÓLIO */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+
+.row,
+.row>.column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    clear: both;
+    width: 33.33%;
+    display: none;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    padding: 10px;
+    width: 100%;
+
+}
+
+.show {
+    text-align: center;
+    display: block;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+.tituloInformativo {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.container5 {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card-body {
+    height: 13rem;
+    flex: 1 1 auto;
+    padding: 0px;
+}
+
+.card-text {
+    height: 100px;
+}
+
+.preview {
+    height: 130px;
+    overflow: hidden;
+}
+
+ 
+footer {
+    background-color: rgb(81, 32, 131);
+    width: 180% !important;
+    height: 26vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+span {
+    color: white;
+
+}
+
+
+.icones {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.instagram {
+    border-radius: 24px;
+    background-image: url(../img/insta\ \(2\).png);
+    height: 46px;
+    width: 48px;
+    background-size: inherit;
+    background-position: center;
+}
+
+.facebook {
+    border-radius: 24px;
+    background-image: url(../img/facebook.png);
+    height: 46px;
+    width: 48px;
+    background-size: inherit;
+    background-position: center;
+}
+
+.twitter {
+    border-radius: 24px;
+    background-image: url(../img/twitter.png);
+    height: 46px;
+    width: 48px;
+    background-size: inherit;
+    background-position: center;
+}
+.row, .row>.column {
+    padding: 8px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .container1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .transition:hover {
+        margin-top: auto;
+        scale: 110%;
+    }
+
+    header {
+        background-color: rgb(87, 29, 125);
+        height: 11vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mobile {
+        display: flex;
+    }
+
+    nav {
+        height: 65px;
+        justify-content: space-between;
+    }
+    .titulo > h1 {
+        padding-bottom: 26px;
+        display: flex;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        justify-content: center;
+    }
+
+    .logo {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    #burguer {
+        width: 60px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+        align-self: center;
+        align-items: flex-end;
+        cursor: pointer;
+        /* Muda a setinha do mouse, quando passar por cima do amburguer ele muda*/
+        z-index: 999;
+    }
+
+    #burguer>div {
+        width: 40px;
+        height: 5px;
+        margin: 5px;
+        background-color: aliceblue;
+        transition: all linear .3s;
+
+    }
+
+    #burguer>div:nth-child(1) {
+        width: 50px;
+    }
+
+    #burguer>div:nth-child(2) {
+        width: 40px;
+    }
+
+    #burguer>div:nth-child(3) {
+        width: 30px;
+    }
+
+    #burguer:hover div {
+        width: 50px;
+    }
+
+    #burguer.active>div:nth-child(3) {
+        opacity: 0;
+    }
+
+    #burguer.active>div:nth-child(1) {
+        transform: rotate(45deg) translateY(9px);
+        width: 30px;
+    }
+
+    #burguer.active>div:nth-child(2) {
+        transform: rotate(-45deg) translateY(-10px);
+        width: 30px;
+    }
+
+    #menu-mobile {
+        position: absolute;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-150%);
+        transition: all linear .3s;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+
+    #menu-mobile.active {
+        transform: translateX(0%);
+    }
+
+    #menu-mobile ul {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menu-mobile ul li {
+        padding: 15px;
+        border-bottom: 1px solid white;
+    }
+
+    .titulo1 > h1{
+        font-size: 27px;
+        padding-bottom: 18px;
+    }
+
+
+    #box-produto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text_logo h3 {
+        text-decoration: none;
+        list-style: none;
+        color: aliceblue;
+    }
+
+    ul,
+    .pesquisa {
+        display: none;
+    }
+
+    .barraSuperior {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .lupa {
+        margin-left: -33px;
+        margin-top: 5px;
+    }
+
+    .busca {
+        width: 100%;
+        background-color: #04709D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 46px;
+    }
+
+    .image_tecnology {
+        background: url(../img/tec.png);
+        display: flex;
+        justify-content: center;
+        height: 227px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center
+    }
+
+    .image {
+        height: 480px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../img/propaganda_mobile.png");
+    }
+
+    .card {
+        box-shadow: 0px 2px 18px rgb(6 4 14 / 88%);
+    }
+
+    .card-body {
+        height: 9rem;
+        flex: 1 1 auto;
+        padding: 0px;
+    }
+
+    .card-title {
+        font-size: 16px;
+        margin-bottom: .75rem;
+    }
+
+    .card-text {
+        height: 50px;
+    }
+
+    p {
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+    .busca input {
+        font-size: 15px;
+        width: 80vw;
+        padding: 0px 5px;
+    }
+
+    .icons {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .container2 {
+        width: 100%;
+        height: 380px;
+        padding: 29px;
+    }
+
+    .preview {
+        height: 130px;
+        overflow: hidden;
+    }
+
+    .container5 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .infos {
+        color: white;
+    }
+
+    /* Add padding BETWEEN each column (if you want) */
+    .row,
+    .row>.column {
+        padding: 8px;
+    }
+
+    /* Create three equal columns that floats next to each other */
+    .column {
+        float: left;
+        clear: both;
+        width: 100%;
+        display: none;
+        /* Hide columns by default */
+    }
+
+
+
+    /* Clear floats after rows */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Content */
+    .content {
+        padding: 10px;
+        width: 100%;
+
+    }
+
+    /* The "show" class is added to the filtered elements */
+    .show {
+        text-align: center;
+        display: block;
+    }
+
+    /* Style the buttons */
+    .btn {
+        border: none;
+        outline: none;
+        padding: 12px 16px;
+        cursor: pointer;
+    }
+
+    /* Add a grey background color on mouse-over */
+    .btn:hover {
+        background-color: #ddd;
+    }
+
+    /* Add a dark background color to the active button */
+    .btn.active {
+        background-color: #666;
+        color: white;
+    }
+    footer {
+        background-color: rgb(81, 32, 131);
+        width: 120% !important;
+        height: 26vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+
+
+
+
+}

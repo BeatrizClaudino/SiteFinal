@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	background: linear-gradient(28deg, #8c40cf, #489af1) !important;
+	background-repeat: no-repeat;
+}
+
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.Container1 {
+	height: 100vh;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.Carrinho {
+    display: flex;
+    height: 66vh;
+    /* width: 60%; */
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.produtos_do_carrinho {
+	width: 80vw;
+	margin: 20px;
+}
+
+#carrinho>div {
+	display: flex;
+	margin-top: 10px;
+}
+
+#carrinho img {
+	width: 140px;
+}
+
+#carrinho h3 {
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
+	color: black;
+	align-items: center;
+}
+
+.titulo2 {
+	color: #0079e3;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.finalizacao {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 100px;
+}
+
+.bt_finalizar {
+	padding: 10px 20px;
+	border-radius: 5px;
+	background: #8d10ff;
+	color: #fff;
+}
+
+.bt_continuar {
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #8d10ff;
+	border: 1px solid #8d10ff;
+}
+
+.limpar_carrinho {
+	color: #8d10ff;
+}
+
+@media screen and (max-width: 767px) {
+	.Container1 {
+		height: 100vh;
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+	.titulo2>h1 {
+		color: #0079e3;
+		font-weight: bold;
+		font-size: 27px;
+	}
+
+	.Carrinho {
+		display: flex;
+		width: 90%;
+		background-color: white;
+		text-align: center;
+		justify-content: space-evenly;
+	}
+	.finalizacao {
+		display: flex;
+		text-align: center;
+		align-items: center;
+		justify-content: space-evenly;
+		height: 100px;
+		flex-wrap: wrap;
+	}
+	#CarrinhoVazio > h1{
+		font-size: 18px;
+	}
+	.compras{
+		line-height: 36px;
+	}
+	#carrinho h3 {
+		width: 68%;
+		display: flex;
+		color: black;
+		align-items: center;
+	}
+	#carrinho img {
+		width: 30%;
+		height: 62px;
+	}
+}

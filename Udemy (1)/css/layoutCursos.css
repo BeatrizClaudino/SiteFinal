@@ -1,0 +1,737 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.container_apresentacao {
+    width: 100%;
+}
+
+.informacoes {
+    align-items: center;
+    display: flex;
+    height: 44vh;
+    flex-direction: column;
+}
+
+.fundo_java {
+    background-color: rgba(2, 29, 76, 0.305);
+    width: 100%;
+    height: 370px;
+}
+
+.title {
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 22px;
+}
+
+.texto_descritivo {
+    width: 90%;
+    color: white;
+    font-size: 26px;
+    margin-bottom: 22px;
+    text-align: center
+}
+
+.maisvendidos {
+    color: white;
+    background-color: rgb(201, 0, 144);
+    height: 38px;
+    width: 10vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.classificacoes {
+    color: white;
+    background-color: rgb(201, 0, 144);
+    height: 38px;
+    width: 11vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.stars {
+    color: white;
+}
+
+
+.avaliacoes {
+    margin-bottom: 0px;
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-between;
+    width: 34%;
+}
+
+.Hardware {
+    margin-bottom: 12px;
+    background-position: center -1px;
+    border-radius: 80px;
+    height: 14vh;
+    width: 7vw;
+    background-image: url("../img/pc.jpg");
+    background-size: cover;
+    background-size: cover -44px;
+    align-items: center;
+}
+
+.HTML {
+    margin-bottom: 12px;
+    background-position: center -1px;
+    border-radius: 80px;
+    height: 14vh;
+    width: 7vw;
+    background-image: url("../img/imagemHtml.jpg");
+    background-size: cover;
+    background-size: cover -44px;
+    align-items: center;
+}
+
+.python {
+    margin-bottom: 12px;
+    background-position: center;
+    border-radius: 80px;
+    height: 144px;
+    width: 140px;
+    background-image: url("../img/imagemPython.jpg");
+    background-size: cover;
+    background-size: cover -44px;
+    align-items: center;
+}
+
+.java {
+    margin-bottom: 12px;
+    background-position: center -14px;
+    border-radius: 80px;
+    height: 144px;
+    width: 140px;
+    background-image: url("../img/javinha.png");
+    background-size: cover;
+    background-size: cover -44px;
+    align-items: center;
+}
+
+.container_descricao {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.topicos_aprendizado {
+    width: 72%;
+    border: 5px solid rgb(201, 0, 144);
+}
+
+.title_aprendizado {
+    padding-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.textos {
+    color: white;
+    padding: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Ul_1 {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.Ul_2 {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.Ul_1>li,
+.Ul_2>li {
+    margin-top: 20px;
+}
+
+.logo h3 {
+    padding-top: 10px;
+    padding-left: 3px;
+    color: #fff;
+    font-size: 1.75rem
+}
+
+.container3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info_valor {
+    border-radius: 30px;
+    width: 24%;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button_comprarAgr>a {
+    text-decoration: none;
+    display: flex;
+    background-color: #43cb2b;
+    height: 50px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_comprar {
+    color: white;
+}
+
+.button_add > a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: rgb(144, 22, 14);
+    height: 50px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_add {
+    color: white;
+}
+
+.porcentagem_desconto {
+    color: red;
+}
+
+.title_principal>h1 {
+    font-size: 46px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    color: rgb(59 120 255);
+    text-shadow:
+        -1px -1px 0px rgb(0, 211, 226),
+        -1px 1px 0px rgb(0, 211, 226),
+        1px -1px 0px rgb(0, 211, 226),
+        1px 0px 0px rgb(0, 211, 226);
+}
+
+.videos {
+    width: 60%;
+    height: 86vh;
+    background: white;
+    border: 3px solid rgb(253, 243, 243);
+    ;
+}
+
+.container4 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+.list>li {
+    font-size: 16px;
+    width: 100%;
+    height: 55px;
+    background-color: #7c7b7b38;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linha_horizontal {
+    width: 100%;
+    border: 1px solid rgb(253, 243, 243);
+}
+
+
+
+
+.textos_java {
+    line-height: 40px;
+}
+
+.container5 {
+    padding-top: 6vh;
+    width: 100%;
+    padding-bottom: 10vh;
+}
+
+.info_instrutor {
+    width: 60%;
+    line-height: 40px;
+}
+
+.title_instrutor,
+.nome,
+.cargo {
+    color: white;
+}
+
+.title_instrutor>h1 {
+    font-size: 40px;
+}
+
+.foto_professor {
+    background-image: url("../img/Lindomar.jfif");
+    background-position: center 0px;
+    border-radius: 135px;
+    height: 190px;
+    width: 190px;
+    background-size: cover;
+}
+
+.foto_professorL {
+    background-image: url("../img/omi.png");
+    background-position: center 0px;
+    border-radius: 135px;
+    height: 190px;
+    width: 190px;
+    background-size: cover;
+}
+
+.foto_professorC {
+    background-image: url("../img/Celso.jfif");
+    background-position: center 0px;
+    border-radius: 135px;
+    height: 190px;
+    width: 190px;
+    background-size: cover;
+}
+
+.text_avaliacao>ul {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    line-height: 45px;
+}
+
+.avaliacoes_professor {
+    display: flex;
+}
+
+.container6 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alunos {
+    width: 60%;
+    height: 62vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.classificacao_do_curso>h1 {
+    color: rgb(127 60 195);
+    font-size: 30px;
+}
+
+.opiniaoAlunos {
+    border-radius: 34px;
+    margin: 24px;
+    height: 100%;
+}
+
+.nomeAluno>h1 {
+    font-size: 12px;
+    color: #00FFD1;
+}
+
+.nomeAluno>p {
+    color: white;
+    font-size: 12px;
+}
+
+.opiniaoAluno {
+    color: white;
+    margin-top: 14px;
+}
+
+
+
+.informacaoPrincipal {
+    display: flex;
+}
+
+.utilidade {
+    margin-top: 30px;
+    color: white;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.opiniaoAluno>p {
+    height: 30px;
+}
+
+.post1,
+.post2,
+.post3,
+.post4 {
+    border: 2px solid #00FFD1;
+    margin: 24px;
+    width: 40%;
+    height: 256px;
+}
+
+@media screen and (max-width: 767px) {
+    .container_apresentacao {
+        width: 100%;
+    }
+
+    .informacoes {
+        align-items: center;
+        display: flex;
+        text-align: center;
+        height: auto;
+    }
+
+    .fundo_java {
+        padding-top: 30px;
+        background-color: rgba(2, 29, 76, 0.305);
+        width: 100%;
+        height: auto;
+    }
+
+    .title {
+        font-size: 13px;
+        color: white;
+    }
+
+    .texto_descritivo {
+        color: white;
+        font-size: 17px;
+        display: flex;
+        text-align: center;
+        padding: 20px;
+        line-height: 23px;
+        font-size: 14px;
+    }
+
+    .avaliacoes {
+        margin: 17px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: 120px;
+    }
+
+    .maisvendidos {
+        font-weight: bold;
+        background-color: rgb(201, 0, 144);
+        color: white;
+        height: 38px;
+        width: 155px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+
+    .classificacoes {
+        font-weight: bold;
+        color: white;
+        background-color: rgb(201, 0, 144);
+        height: 38px;
+        width: 155px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        border-radius: 20px;
+    }
+
+    .java {
+        background-position: center -9px;
+        border-radius: 80px;
+        height: 83px;
+        width: 22%;
+        background-image: url(../img/javinha.png);
+        align-items: center;
+    }
+
+    .container_descricao {
+        width: 100%;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container3 {
+        width: 88%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .info_valor {
+        border-radius: 30px;
+        width: 80%;
+        height: 34vh;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topicos_aprendizado {
+        width: 73%;
+        height: fit-content;
+        border: 2px solid rgb(201, 0, 144);
+    }
+
+    .title_aprendizado {
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .textos {
+        align-items: center;
+        padding: 0;
+        font-size: 14px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .Ul_1,
+    .Ul_2 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .Ul_1>li,
+    .Ul_2>li {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .logo h3 {
+        padding-top: 10px;
+        padding-left: 3px;
+        color: #fff;
+        font-size: 1.75rem
+    }
+
+    .stars {
+        color: white;
+    }
+
+    .container4 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title_principal>h1 {
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        color: rgb(59 120 255);
+        text-shadow:
+            -1px -1px 0px rgb(0, 211, 226),
+            -1px 1px 0px rgb(0, 211, 226),
+            1px -1px 0px rgb(0, 211, 226),
+            1px 0px 0px rgb(0, 211, 226);
+    }
+
+    .videos {
+        margin-top: 18px;
+        width: 88%;
+        height: 86vh;
+        background: white;
+        border: 3px solid rgb(253, 243, 243);
+    }
+
+    .list>li {
+        font-size: 13px;
+        width: 100%;
+        height: 55px;
+        background-color: #7c7b7b38;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .info_instrutor {
+        display: contents;
+        width: 85%;
+        line-height: 40px;
+    }
+
+    .avaliacoes_professor {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .foto_professor {
+        background-image: url(../img/Lindomar.jfif);
+        background-position: center 0px;
+        border-radius: 105px;
+        height: 149px;
+        width: 148px;
+        background-size: cover;
+    }
+
+    .text_avaliacao>ul {
+        width: 86%;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        line-height: 33px;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    .container6 {
+        align-items: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .alunos {
+        width: 88%;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .classificacao_do_curso {
+        justify-content: center;
+        width: 70%;
+    }
+
+    .classificacao_do_curso>h1 {
+        color: white;
+        font-size: 19px;
+        display: flex;
+    }
+
+    .post1,
+    .post2,
+    .post3,
+    .post4 {
+        border: 2px solid #00FFD1;
+        margin: 24px;
+        width: 100%;
+    }
+
+    .utilidade {
+        height: 12vh;
+        padding-bottom: 12px;
+        color: white;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .opiniaoAlunos {
+        border-radius: 34px;
+        margin: 10px 12px;
+        height: 28vh;
+    }
+
+    .nomeAluno>p {
+        color: white;
+        font-size: 12px;
+    }
+
+    .opiniaoAluno {
+        color: white;
+        margin-top: 14px;
+    }
+
+    .Hardware {
+        margin-bottom: 12px;
+        background-position: center 2px;
+        border-radius: 80px;
+        height: 14vh;
+        width: 31vw;
+        background-image: url(../img/pc.jpg);
+        background-size: cover;
+        background-size: cover -44px;
+        align-items: center;
+
+    }
+
+    .HTML {
+        margin-bottom: 12px;
+        background-position: center -1px;
+        border-radius: 80px;
+        height: 14vh;
+        width: 32vw;
+        background-image: url(../img/imagemHtml.jpg);
+        background-size: cover;
+        background-size: cover -44px;
+        align-items: center;
+    }
+
+}
